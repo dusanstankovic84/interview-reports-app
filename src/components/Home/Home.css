@@ -1,0 +1,7 @@
+.candidates {
+    align-content: stretch;
+}
+.candidates [class*="col-"]{
+  display: flex;
+  margin-bottom: 20px;
+}

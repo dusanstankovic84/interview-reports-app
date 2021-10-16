@@ -1,0 +1,44 @@
+.modal-title {
+    font-weight: bold;
+}
+.modal {
+    overflow: auto;
+}
+.notes-wrapper {
+    position: relative;
+}
+.notes-wrapper .notes-bg {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 15px;
+    max-width: 200px;
+    width: 100%;
+    max-height: 100%;
+    opacity: 1;
+}
+.notes-wrapper .candidate-notes {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+}
+.notes-wrapper .candidate-notes:after {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255,255,255,0) 100%);
+}
+@media screen and (max-width: 600px) {
+    .notes-wrapper .notes-bg {
+        position: relative;
+        width: 200px;
+        left: 50%;
+        right: auto;
+        margin-left: -100px;
+    }
+}

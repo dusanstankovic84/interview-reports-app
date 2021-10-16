@@ -1,0 +1,27 @@
+.candidate .card img {
+    width: 60%;
+    margin: 20px auto;
+    position: relative;
+    display: block;
+    transition: all 0.4s ease;
+}
+.candidate .card {
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border: 1px solid #f3f3f3;
+}
+.candidate .card:hover {
+    box-shadow: 0 0 25px #6b63ff8c;
+    background: #6C63FF;
+    color: #fff;
+    border-color: #6C63FF;
+}
+.candidate .card:hover img {
+    transform: translateY(-30px);
+}
+.candidate .card:not(:hover) .card-text {
+    color: #888;
+}

@@ -1,0 +1,23 @@
+.main-header {
+    background: #292833;
+}
+.navbar .navbar-nav {
+    margin-left: auto; /* Make navigation go to the right in parent's flex container */
+}
+@media screen and (max-width: 600px) {
+    .navbar > .container, .App > .navbar > .container-fluid {
+        flex-direction: column;
+    }
+    .navbar .navbar-nav {
+        width: 100%;
+        
+    }
+    .navbar .navbar-nav .btn, .navbar .form-control {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .navbar form {
+        width: 100%;
+    }
+}

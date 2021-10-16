@@ -1,0 +1,28 @@
+.report-item {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 5px;
+    overflow: hidden;
+    
+}
+.report-item strong,
+.report-item small{
+    display:block;
+}
+.report-item .row > div:not(:last-of-type){
+    border-right: 1px solid #ddd;
+}
+.report-item .btn {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .report-item .row > div:not(:last-of-type) {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+    .report-item .row > div {
+        padding: 10px 30px;
+    }
+}

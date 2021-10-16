@@ -1,0 +1,41 @@
+.candidate-info-item {
+    margin-bottom: 40px;
+    font-size: 100%;
+}
+.modal .candidate-info-item {
+    margin-bottom: 20px;
+}
+.modal.candidate-info-modal .modal-dialog {
+    max-width: 800px;
+}
+.candidate-info-item .candidate-info-label {
+    font-size: 80%;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.candidate-info-item:not(.candidate-notes) .candidate-info-value {
+    font-weight: 500;
+    font-size: 120%;
+}
+.candidate-info-loading {
+    position: relative;
+    color: #fff;
+}
+.candidate-info-loading:after {
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    background: #fafafa;
+    width: 0;
+    animation: candidateInfoLoading 1s infinite;
+}
+@keyframes candidateInfoLoading {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}

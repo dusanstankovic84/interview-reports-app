@@ -1,0 +1,6 @@
+.navbar form {
+    margin-left: auto; /* Make navigation go to the right in parent's flex container */
+}
+.searchbar {
+    margin-bottom: 20px;
+}

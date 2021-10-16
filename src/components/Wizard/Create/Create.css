@@ -1,0 +1,18 @@
+.page-create {
+    padding: 20px;
+}
+.step-buttons {
+    padding: 10px 0;
+}
+.btn-next {
+    float: right;
+}
+.step-buttons button {
+    min-width: 100px;
+}
+.clearfix {
+    clear: both;
+}
+.step-breakdown small {
+    display: block;
+}

@@ -1,0 +1,12 @@
+.companies-list {
+    padding: 20px 0;
+}
+.companies-list li.list-group-item {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.companies-list li.list-group-item:hover {
+    box-shadow: 0 0 15px #6b63ff8c;
+    z-index: 3;
+    border-color: #6b63ff8c;
+}
